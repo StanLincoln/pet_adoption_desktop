@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  color: #000;
+}
+
+nav,
+li {
+  display: inline-block;
+}
+.img-inside-div {
+  display: none;
+}
+.burder-menu {
+  display: none;
+}
+.header-container {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-container ul {
+  display: flex;
+  gap: 25px;
+  height: 100%;
+  align-items: center;
+}
+
+.header-container button {
+  border-radius: 999px;
+  background: #ada7ff;
+  padding: 16px 32px;
+  color: #ffffff;
+}
+
+#active {
+  color: #9a93ff;
+}
+
+.section-wrapper {
+  padding: 89px 10% 60px 10%;
+  position: relative;
+}
+.section-wrapper h2,
+.section-wrapper span {
+  color: #302b3a;
+  font-size: 69px;
+  font-weight: 700;
+}
+.section-wrapper h2 {
+  margin-bottom: 23px;
+}
+.section-wrapper span {
+  color: #ada7ff;
+}
+.section-wrapper > div > p {
+  max-width: 625px;
+  margin-bottom: 60px;
+}
+.section-wrapper > img {
+  margin-right: 10%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+.button-container button:nth-child(1) {
+  padding: 16px 32px;
+  border-radius: 999px;
+  background: #ada7ff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+}
+
+.button-container button:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ada7ff;
+  line-height: normal;
+  background: transparent;
+}
+
+.stat-container {
+  display: flex;
+  gap: 65px;
+}
+
+.stat-container div p:nth-child(1) {
+  color: #302b3a;
+  font-size: 43px;
+  font-weight: 600;
+}
